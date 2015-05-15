@@ -24,4 +24,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(BOOL *)isEvenNumber:(NSInteger *)number
+{
+    if (*number % 2)
+    {
+        return false;
+    }
+    else{
+        return true;
+    }
+}
 @end
